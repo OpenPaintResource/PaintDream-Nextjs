@@ -11,12 +11,22 @@
     "ci": "echo 'ci'"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "antd": "^4.16.13",
+    "clsx": "latest",
     "next": "11.1.2",
+    "next-page-transitions": "latest",
+    "prop-types": "^15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/next": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "typescript": "latest"
   }
 }
