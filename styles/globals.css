@@ -23,7 +23,6 @@ body {
 }
 
 .logo {
-  z-index: 1;
   float: left;
   width: 328px;
   height: 100%;
@@ -32,7 +31,7 @@ body {
   position: relative;
   font-size: 48px;
   vertical-align: middle;
-  padding-top:128px;
+  padding-top:48px;
 }
 
 .header {
@@ -42,7 +41,7 @@ body {
 
 }
 .header:after {
-  filter: blur(3px);    
+  filter: blur(1px);    
   content: '';
   position: absolute;
   top: 0;
@@ -51,7 +50,7 @@ body {
   bottom: 0;
   background: url(/background_head.png) no-repeat;
   z-index: -1;
-  height: 420px;
+  height: 620px;
   background-size: cover;
 }
 
@@ -59,5 +58,12 @@ body {
   padding-left: 48px;
   font-size: 24px;
   color: #000;
-  margin-top: 348px;
+  margin-top: 622px;
+}
+
+.menu {
+  margin-top: 48px;
+  height: 72px;
+  opacity: 0.2;
+  margin-left: 340px;
 }

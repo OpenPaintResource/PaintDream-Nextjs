@@ -20,9 +20,9 @@ export default function MyApp(props: AppProps) {
       </Head>
       <Layout>
         <Header className="header">
-          <span className="logo">
-            绘旅书梦
-          </span>
+        <span className="logo">
+                  绘旅书梦
+        </span>
         </Header>
         <Content className="content">
           <Component {...pageProps} />
