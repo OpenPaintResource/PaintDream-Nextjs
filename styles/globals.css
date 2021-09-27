@@ -67,3 +67,10 @@ body {
   opacity: 0.2;
   margin-left: 340px;
 }
+
+.report-img {
+  width: 20px;
+  display: inline-block;
+  height: 20px;
+  margin-right: 4px; 
+}

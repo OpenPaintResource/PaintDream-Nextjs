@@ -39,7 +39,11 @@ export default function MyApp(props: AppProps) {
             <>
               Copyright <CopyrightOutlined /> {currentYear} 绘旅书梦
               <span style={{ padding: '0 20px' }}>|</span>
-              <a onClick={() => open('https://beian.miit.gov.cn')}>沪ICP备2021026434号</a>
+              <a onClick={() => open('https://beian.miit.gov.cn')}>
+              <img data-src="china-net.gif" className="report-img" src="china-net.gif"/>
+              <img data-src="china.png" className="report-img" src="china.png"/>
+                沪ICP备2021026434号
+              </a>
             </>
           }
         />
