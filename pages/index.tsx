@@ -1,6 +1,8 @@
 import React from 'react';
-import { Row, Col,Space } from 'antd';
+import { Row, Col,Space, Card } from 'antd';
 import Image from 'next/image';
+const { Meta } = Card;
+
 export default function Index() {
   return (
       <React.Fragment>
@@ -32,12 +34,29 @@ export default function Index() {
             </ul>
 
             <h2>工具推荐</h2>
-            <h3>Godot</h3>
-            <h3>Pixelorama</h3>
-            <h3>Blender</h3>
-            <h3>Photoshop</h3>
+            <Row>
+            <Card
+              cover={
+                <img alt="Godot" src={"/soft/godot.png"}  height="150px"/>
+              }
+            />
+            <Card
+              cover={
+                <img alt="Godot" src={"/soft/krita.svg"}  height="150px"/>
+              }
+            />
+            <Card
+              cover={
+                <img alt="Godot" src={"/soft/cocos_400x400.png"}  height="150px"/>
+              }
+            />
+            <Card
+              cover={
+                <img alt="Godot" src={"/soft/ps.png"}  height="150px"/>
+              }
+            />
+            </Row>
           </Col>
-
         </Row>
       </React.Fragment>
   );
