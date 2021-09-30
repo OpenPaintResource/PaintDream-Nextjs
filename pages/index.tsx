@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col,Space, Card } from 'antd';
 import Image from 'next/image';
-const { Meta } = Card;
 
 export default function Index() {
   return (
