@@ -2,7 +2,11 @@
   "name": "paint-terminal",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=16.0.0 < 17"
+  },
   "scripts": {
+    "postinstall": "node ./checkver.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
